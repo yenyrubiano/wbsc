@@ -1,0 +1,35 @@
+/*------------------------------------------------*/
+/* MAIN NAVBAR
+/*------------------------------------------------*/
+
+#main-menu { 
+  background: $brand-white; 
+  font-family: $font-family-headings;
+  font-size: 18px;
+  text-transform: uppercase; 
+
+  a {
+    color: $gray;
+
+    &:hover, &:focus {
+      color: $brand-red;
+    }
+
+  }
+
+}
+
+.bg-light {
+  background: $brand-white !important; 
+}
+
+.navbar-brand img { 
+  width: 150px; 
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 2rem;
+  }
+}

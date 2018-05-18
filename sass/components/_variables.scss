@@ -1,0 +1,37 @@
+/*------------------------------------------------*/
+/* MOULDIFI VARIABLES
+/*------------------------------------------------*/
+
+// Colors
+
+$gray-base:              #282828 !default;
+$gray-darker:            #5d5d5d !default; 
+$gray-dark:              #838383 !default; 
+$gray:                   #3c3c3c !default; 
+$gray-light:             #EDEDED !default;
+$gray-lighter:           #F8F8F8 !default;
+
+$brand-blue:            #233568 !default;
+$brand-red:             #cb2128 !default;
+$brand-green:           #99a9a9 !default;
+$brand-white:           #FFFFFF !default;
+$brand-black:           #000000 !default;
+
+
+// Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+$font-family-abel:  	Abel, Arial, sans-serif;
+$font-family-headings:  $font-family-abel;
+
+$font-family-arial:  	Arial, Helvetica, sans-serif;
+$font-family-default:   $font-family-arial !default;
+
+
+// Header Styles
+
+$h1-fontsize: 28px !default;
+$h2-fontsize: 18px !default;
+$h3-fontsize: 16px !default;
+$h4-fontsize: 14px !default;
