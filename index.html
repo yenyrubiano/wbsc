@@ -21,7 +21,7 @@
 
     <!-- FONTS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,600i,700" rel="stylesheet">
 
   </head>
 
@@ -70,7 +70,7 @@
                     <a class="nav-link" href="/" target="_blank">Tour</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://www.wbsc.org/category/baseball/" target="_blank">Teams</a>
+                    <a class="nav-link" href="https://wbwc.wbsc.org/teams-and-rosters" target="_blank">Teams</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/" target="_blank">Tickets</a>
@@ -82,7 +82,7 @@
                     <a class="nav-link" href="http://www.wbsc.org/" target="_blank">WBSC</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/" target="_blank">Space Coast</a>
+                    <a class="nav-link" href="http://www.usssaspacecoast.com/" target="_blank">Space Coast</a>
                   </li>
                 </ul>
               </div>
@@ -94,29 +94,32 @@
   	<!-- MENU ENDS -->
 
     <!-- SLIDER -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="main-carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#main-carousel" data-slide-to="1"></li>
+        <li data-target="#main-carousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="images/carousel/1.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Test 1</h5>
+            <a href="/" target="_blank" class="btn btn-danger">Call To Action</a>
+            <h1>Add a Good Tagline Here 1</h1>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/carousel/1.jpg" alt="Second slide">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Test 2</h5>
+            <a href="/" target="_blank" class="btn btn-danger">Call To Action</a>
+            <h1>Add a Good Tagline Here 2</h1>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/carousel/1.jpg" alt="Third slide">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Test 3</h5>
+            <a href="/" target="_blank" class="btn btn-danger">Call To Action</a>
+            <h1>Add a Good Tagline Here 3</h1>
           </div>
         </div>
       </div>
@@ -128,7 +131,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md">
-            <p><strong>Tournament Starts in:</strong> <span class="timer">30</span></p>
+            <p><strong>Tournament Starts in:</strong> <span id="timer"></span></p>
           </div>
         </div>
       </div>
@@ -186,7 +189,7 @@
             <h2>Latest News</h2>
           </div>
           <div class="col-md" align="right">
-            <a href="/"><span class="fa fa-angle-right"></span>&nbsp; All News</a>
+            <a href="http://www.wbsc.org/tournaments/2018-womens-baseball-world-cup/news/" target="_blank"><span class="fa fa-angle-right"></span>&nbsp; All News</a>
           </div>
         </div>
         <div class="row">
@@ -203,12 +206,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md">
-            <a href="/" target="_blank"><img src="images/logo_usssa_space_coast_complex.png" alt="USSSA Space Coast Complex" border="0" class="mx-auto d-block"></a>
+            <a href="http://www.usssaspacecoast.com/" target="_blank"><img src="images/logo_usssa_space_coast_complex.png" alt="USSSA Space Coast Complex" border="0" class="mx-auto d-block"></a>
           </div>
           <div class="col-md">
             <h2>Thinking of Visiting Florida's Space Coast?</h2>
             <p>Please add text here.</p>
-            <a href="/" class="btn btn-light">Discover</a>
+            <a href="http://www.usssaspacecoast.com/" target="_blank" class="btn btn-light">Discover</a>
           </div>
         </div>
       </div>
@@ -225,7 +228,7 @@
               <div class="col-sm-4">
                 <ul class="footer-links">
                   <li><a href="/" target="_blank">Tickets</a></li>
-                  <li><a href="/" target="_blank">Visit Space Coast</a></li>
+                  <li><a href="http://www.usssaspacecoast.com/" target="_blank">Visit Space Coast</a></li>
                   <li><a href="/" target="_blank">Viera 2018</a></li>
                 </ul>
               </div>
@@ -239,7 +242,7 @@
             </div>
           </div>
           <div class="col-md spacing">
-            <h4>United States Speciality Sports Association</h4>
+            <h4>United States Specialty Sports Association</h4>
             <p>5800 Stadium Pkwy<br>Melbourne, FL 32940</p>
           </div>
         </div>
@@ -269,6 +272,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/wbsc-scripts.js"></script>
 
   </body>
 </html>

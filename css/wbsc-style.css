@@ -46,20 +46,26 @@ h2                          { font-size: 30px; line-height: 30px; font-weight: 7
 /*------------------------------------------------*/
 /* SLIDER
 /*------------------------------------------------*/
+.carousel-caption            { text-align: right; }
+.carousel .btn-danger       { margin: 0 0 30px 0; }
+.carousel h1                { font-size: 50px; font-weight: 300; margin-bottom: 70px; }
 
 /*------------------------------------------------*/
 /* CONTENT AREA
 /*------------------------------------------------*/
 .invite, .news, .groups, .timeline { padding: 50px 0; }
 .timer                      { padding: 15px 0; text-transform: uppercase; }
-.timer p                    { margin: 0; }
+.timer p                    { margin: 0; color: #CEAC58; }
 .groups                     { background: #9B1134 url("../images/bg_red_decor.png") no-repeat top left; }
 .side-cnt-nav span          { font-size: 15px; margin: 0 5px 0 20px; }
 
 /*------------------------------------------------*/
 /* BUTTONS
 /*------------------------------------------------*/
-.btn                        { text-transform: uppercase; font-size: 18px; padding: 10px 20px; -moz-box-shadow: 0 0 4px #a4a4a4; -webkit-box-shadow: 0 0 4px #a4a4a4; box-shadow: 0 0 4px #a4a4a4; }
+.btn                        { text-transform: uppercase; font-size: 18px; padding: 10px 20px; }
+.btn-primary                { -moz-box-shadow: 0 0 4px #a4a4a4; -webkit-box-shadow: 0 0 4px #a4a4a4; box-shadow: 0 0 4px #a4a4a4; }
+.btn-danger                 { background-color: #9B1134; border: none; }
+.btn-danger:hover           { background-color: #C21941; }
 
 /*------------------------------------------------*/
 /* FOOTER
