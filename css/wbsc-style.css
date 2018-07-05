@@ -37,18 +37,19 @@ h2                          { font-size: 30px; line-height: 30px; font-weight: 7
 #main-menu                  { background: #4f001f url("../images/bg_header.jpg") no-repeat top center; font-size: 18px; font-weight: 600; text-transform: uppercase; padding: 20px 0; }
 #main-menu a                { color: #9B1134; }
 #main-menu a:hover, #main-menu:focus { color: #000; }
-.navbar                     { padding-right: 0; }
+.navbar                     { padding: 0; width: 100%; }
 .nav-link                   { padding-left: 20px !important; padding-right: 0 !important; }
-.logo img                   { width: 100%; }
-.menu-social                {}
+/*.logo img                   { width: 100%; }*/
+.navbar-brand 				{ margin-right: 9rem; }
+.navbar-brand img			{ width: 280px; }
 .menu-social a              { background: #f2f2f2; padding: 8px; border-radius: 80px; font-size: 16px; margin-left: 20px; }
 
 /*------------------------------------------------*/
 /* SLIDER
 /*------------------------------------------------*/
 .carousel-caption            { text-align: right; }
-.carousel .btn-danger       { margin: 0 0 30px 0; }
-.carousel h1                { font-size: 50px; font-weight: 300; margin-bottom: 70px; }
+.carousel .btn-danger       { margin: 0 0 20px 0; }
+.carousel h1                { font-size: 50px; font-weight: 300; margin-bottom: 50px; }
 
 /*------------------------------------------------*/
 /* CONTENT AREA
@@ -58,6 +59,8 @@ h2                          { font-size: 30px; line-height: 30px; font-weight: 7
 .timer p                    { margin: 0; color: #CEAC58; }
 .groups                     { background: #9B1134 url("../images/bg_red_decor.png") no-repeat top left; }
 .side-cnt-nav span          { font-size: 15px; margin: 0 5px 0 20px; }
+.custom-title 				{ font-size: 24px; color: #fff; background: url("../images/bg_title.png") no-repeat top center; margin: 10px 0 0 0; padding: 16px 0; }
+.group-img 					{ margin: 10px 0 80px 0; }
 
 /*------------------------------------------------*/
 /* BUTTONS
@@ -89,11 +92,15 @@ footer small                { color: #878787; }
 /*------------------------------------------------*/
 /* MEDIA QUERIES
 /*------------------------------------------------*/
-@media (max-width: 1200px)	{
-
+@media (max-width: 1199px)	{
+	.navbar-brand img 		{ width: 200px; }
+	#main-menu 				{ font-size: 16px; }
+	.navbar-brand 			{ margin-right: 6rem; }
 }
-@media (max-width: 1000px)	{
-
+@media (max-width: 991px)	{
+	.navbar-nav 			{ margin-top: 10px; }
+	.navbar-nav li a 		{ background: #ececec; border-bottom: solid 2px #4f001f; }
+	.navbar-nav li a:hover 	{ background: #e3e3e3; }
 }
 @media (max-width: 930px)	{
 
